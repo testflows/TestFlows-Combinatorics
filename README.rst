@@ -84,7 +84,7 @@ For example,
 
    parameters = {"a": [0, 1], "b": ["a", "b"], "c": [0, 1, 2], "d": ["d0", "d1"]}
 
-   print(Covering(parameters, strength=2)
+   print(Covering(parameters, strength=2))
 
 
 .. code-block::
@@ -158,7 +158,7 @@ For example,
 
 .. code-block:: python
 
-   print(covering(parameters, strength=2)
+   print(Covering(parameters, strength=2))
 
 .. code-block::
 
