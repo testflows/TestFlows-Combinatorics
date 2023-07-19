@@ -132,7 +132,7 @@ Examining the covering array above, we can see that all possible interactions of
 **a** and **b** are indeed covered at least once. The same check can be done for other parameter combinations.
 
 Checking Covering Array
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 The **check()** method of the **CoveringArray** can be used to verify that the tests
 inside the covering array cover all possible t-way interactions at least once, and thus
@@ -202,7 +202,7 @@ For example,
    This function is equivalent to the `itertools.combinations <https://docs.python.org/3/library/itertools.html#itertools.combinations>`_
 
 With Replacement
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 You can calculate all combinations with replacement by setting the **with_replacement** argument to **True**.
 
