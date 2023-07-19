@@ -14,12 +14,18 @@
 # limitations under the License.
 from setuptools import setup
 
+with open("README.rst", "r", encoding="utf-8") as fd:
+    long_description = fd.read()
+
+
 setup(
     name="testflows.combinatorics",
     version="__VERSION__",
     description="TestFlows - Combinatorics",
     author="Vitaliy Zakaznikov",
     author_email="vzakaznikov@testflows.com",
+    long_description=long_description,
+    long_description_content_type="text/x-rst",
     readme="README.rst",
     url="https://github.com/testflows/testflows-combinatorics",
     classifiers=[
