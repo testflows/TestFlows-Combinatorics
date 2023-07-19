@@ -1,7 +1,7 @@
 `TestFlows.com Open-Source Software Testing Framework`_ Combinatorics
 ---------------------------------------------------------------------
 
-.. image:: https://github.com/testflows/TestFlows-ArtWork/blob/550dcb450bf6db4d48b81936525ccbe974629711/images/logo.png
+.. image:: https://raw.githubusercontent.com/testflows/TestFlows-ArtWork/master/images/logo.png
    :width: 20%
    :alt: test bug
    :align: center
