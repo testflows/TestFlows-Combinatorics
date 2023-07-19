@@ -89,7 +89,7 @@ For example,
 
 gives the following output
 
-::
+.. code-block::
 
    CoveringArray({'a': [0, 1], 'b': ['a', 'b'], 'c': [0, 1, 2], 'd': ['d0', 'd1']},2)[
    6
@@ -107,7 +107,7 @@ gives the following output
 Given that in the example above, the **strength=2**, all possible 2-way (pairwise)
 combinations of parameters **a**, **b**, **c**, and **d** are the following:
 
-::
+.. code-block::
 
    [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')]
 
@@ -120,7 +120,7 @@ parameters **a** and **b** can take.
 Given that parameter **a** can have values **[0, 1]**, and parameter **b** can have values **['a', 'b']**
 all possible interactions are the following:
 
-::
+.. code-block::
 
    [(0, 'a'), (0, 'b'), (1, 'a'), (1, 'b')]
 
@@ -162,7 +162,7 @@ For example,
 
    print(covering(parameters, strength=2)
 
-::
+.. code-block::
 
    CoveringArray({'a': [0, 1], 'b': ['a', 'b'], 'c': [0, 1, 2], 'd': ['d0', 'd1']},2)[
    6
@@ -194,7 +194,7 @@ For example,
    print(list(combinations(parameters.keys(), 2)))
 
 
-::
+.. code-block::
 
    [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')]
 
@@ -217,7 +217,7 @@ For example,
    print(list(combinations(parameters.keys(), 2, with_replacement=True)))
 
 
-::
+.. code-block::
 
    [('a', 'a'), ('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'b'), ('b', 'c'), ('b', 'd'), ('c', 'c'), ('c', 'd'), ('d', 'd')]
 
@@ -241,7 +241,7 @@ For example,
    print(list(product(parameters["a"], parameters["b"])))
 
 
-::
+.. code-block::
 
    [(0, 'a'), (0, 'b'), (1, 'a'), (1, 'b')]
 
@@ -270,7 +270,7 @@ For example,
    print(list(permutations(parameters.keys(), 2)))
 
 
-::
+.. code-block::
 
    ('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'a'), ('b', 'c'), ('b', 'd'), ('c', 'a'), ('c', 'b'), ('c', 'd'), ('d', 'a'), ('d', 'b'), ('d', 'c')]
 
@@ -300,7 +300,7 @@ For example,
 
    print(binomial(4,2))
 
-::
+.. code-block::
 
    6
 
