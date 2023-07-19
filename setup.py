@@ -18,7 +18,7 @@ with open("README.rst", "r", encoding="utf-8") as fd:
     long_description = fd.read()
 
 setup(
-    name="testflows.asserts",
+    name="testflows.combinatorics",
     version="__VERSION__",
     description="TestFlows - Combinatorics",
     author="Vitaliy Zakaznikov",
