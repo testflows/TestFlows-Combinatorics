@@ -255,7 +255,7 @@ the r-length permutations of elements for a given iterable.
 
 :Note:
    Permutations are different from **combinations**. In a combination, the elements
-   don't have any order, but in a permutation, elements order is important.
+   don't have any order, but in a permutation, the order of elements is important.
 
 For example,
 
