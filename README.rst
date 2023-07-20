@@ -55,8 +55,8 @@ of parameters at least once, where an interaction is some specific combination, 
 of some **t** number of parameters, covering all possible values that each selected parameter could have.
 
 :Note:
-   You can find out more about covering array by visiting the US National Institute of Standards and Technology's (NIST)
-   `Introduction to Covering Arrays <https://math.nist.gov/coveringarrays/coveringarray.html>`_ page
+   You can find out more about covering arrays by visiting the US National Institute of Standards and Technology's (NIST)
+   `Introduction to Covering Arrays <https://math.nist.gov/coveringarrays/coveringarray.html>`_ page.
  
 
 The **Covering(parameters, strength=2)** takes the following arguments
